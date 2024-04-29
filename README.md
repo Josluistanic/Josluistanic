@@ -1,9 +1,56 @@
-- 👋 Hi, I’m @Josluistanic / José Luis Tanicuchí Cadena / Jota
-- 👀 I’m interested in improving my skills as a programmer and my English level. I am fond of music and audio & video production.
-- 🌱 I’m currently learning JavaScript and improving my level in HTML, CSS, PHP, C# and Java.
-- 💞️ I’m looking to collaborate on small and simple projects that allow me to learn more about the world of software work.
-- 📫 How to reach me: Linkedin: https://www.linkedin.com/in/joseluistanic/ 
+```php
+namespace Josluistanic;
 
+class About extends Me
+{
+    public function getLanguages(): array
+    {
+        return [
+            'en' => 'English',
+            'es' => 'Spanish',
+        ];
+    }
+
+    public function getDailyKnowledge(): array
+    {
+        return [
+            Php::class,
+            TailwindCss::class,
+            Alpine::class,
+            Laravel::class,
+            Livewire::class,
+            JavaScript::class,
+            Aws::class,
+            Ux::class,
+        ];
+    }
+
+    public function contact(): array
+    {
+        return [
+            'Email' => 'dev@josluistanic.com',
+            'Web' => 'https://josluistanic.com',
+            'LinkedIn' => 'https://www.linkedin.com/in/joseluistanic/',
+        ];
+    }
+
+    public function getCurrentWorkplace(): array
+    {
+        return [
+            'workplace' => [
+                'company' => 'HardSoft Ecuador',
+                'position' => 'Web Developer'
+            ]
+        ];
+    }
+
+    public function getFutureGoal(): string
+    {
+        return 'To contribute to open source.';
+    }
+}
+```
+  
 <!---
 Josluistanic/Josluistanic is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
