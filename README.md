@@ -20,7 +20,6 @@ class About extends Me
             Laravel::class,
             Livewire::class,
             JavaScript::class,
-            Aws::class,
             Ux::class,
         ];
     }
