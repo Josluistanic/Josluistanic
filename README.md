@@ -21,6 +21,8 @@ class About extends Me
             Livewire::class,
             JavaScript::class,
             Ux::class,
+            MySql::class,
+            Astro::class,
         ];
     }
 
